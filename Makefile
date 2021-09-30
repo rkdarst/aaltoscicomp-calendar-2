@@ -9,7 +9,7 @@ build: $(OUT)
 	    echo $${file} ; \
 	    echo "<a href=\"$$file\">$$file</a></br>" >> out/index.html ; \
 	done
-	echo -n "git revisions $(shell git rev-parse --short HEAD), built at " >> out/index.html
+	echo -n "<br>git revision $(shell git rev-parse --short HEAD), built at " >> out/index.html
 	date >> out/index.html
 
 out/%.ics: calendars/%.yaml
