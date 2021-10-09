@@ -1,5 +1,5 @@
 meta:
-  title: Aalto Scientific Computing events
+  title: Public events
   tz: Europe/Helsinki
 
 events:
@@ -9,7 +9,7 @@ events:
       Line1
       Line2
       https://scicomp.aalto.fi
-    location: https://scicomp.aalto.fi/zoom/
+    location: https://meet.jit.si/example
     begin: 2021-09-30 12:00:00
     duration: { minutes: 60 }
 
@@ -19,7 +19,7 @@ events:
       Line1
       Line2
       https://scicomp.aalto.fi
-    location: https://scicomp.aalto.fi/zoom/
+    location: https://meet.jit.si/example
     begin: 2021-10-31 12:00:00
     duration: { minutes: 60 }
 
